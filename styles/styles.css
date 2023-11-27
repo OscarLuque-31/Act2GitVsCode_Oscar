@@ -1,0 +1,81 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    
+    color: #41ff6d;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #41ff6d;
+    
+}
+a{
+    text-decoration: none;
+    height: 10vh;
+    padding: 15px;
+}
+a:hover{
+    background-color: #b186f1;
+}
+div.contenedor{
+    height: 59.9vh;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: black;
+    color: white;
+}
+
+div.horario{
+    
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive; 
+    justify-content: center;  
+}
+div.horario th{
+    text-align: center;
+    border: 2px solid;
+    padding: 5px;
+    background-color: #b186f1;
+}
+div.horario td{
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    border: 2px solid;
+    padding: 9px;
+    background-color: #e79eff;
+}
+div.horario table{
+    margin: auto;
+}
+div.horario td.amarillo{
+    background-color: #ffff42;
+}
+div.horario td.rojo{
+    background-color:#f8443b ;
+}
+div.horario td.verde{
+    background-color:#41ff6d;
+}
+div.horario td.azul{
+    background-color: #5ad0ff;
+}
+div.horario td.rosa{
+    background-color: #f64ee2;
+}
+div.horario td.rosa{
+    background-color: hsl(246, 99%, 64%);
+}
+div.horario td.color{
+    background-color: #ffad2a;
+}
+
